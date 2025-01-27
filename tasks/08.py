@@ -7,7 +7,8 @@ colors_fruits = {
     'lemon': 'yellow',
     'orange': 'orange',
     'grape': 'purple',
+    'banana': 'yellow'
 }
 
-for color in colors_fruits.values():
-    print(color)
+for fruit in colors_fruits.keys():
+    print(fruit)
